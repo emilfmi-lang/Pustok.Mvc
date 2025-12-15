@@ -57,8 +57,8 @@ namespace Pustok.Mvc2.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("DiscountPercent")
-                        .HasColumnType("int");
+                    b.Property<decimal>("DiscountPercent")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("HoverImageUrl")
                         .IsRequired()
@@ -127,6 +127,20 @@ namespace Pustok.Mvc2.Data.Migrations
                     b.HasIndex("TagId");
 
                     b.ToTable("BookTags");
+                });
+
+            modelBuilder.Entity("Pustok.Mvc2.Models.Setting", b =>
+                {
+                    b.Property<string>("Key")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Value")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Key");
+
+                    b.ToTable("Settings");
                 });
 
             modelBuilder.Entity("Pustok.Mvc2.Models.Slider", b =>

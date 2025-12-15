@@ -16,7 +16,7 @@ public class Book : BaseEntity
     public bool IsFeatured { get; set; }
     public bool IsNew { get; set; }
     public string Description { get; set; }
-    public int DiscountPercent { get; set; }
+    public decimal DiscountPercent { get; set; }
     public string MainImageUrl { get; set; }
     public string HoverImageUrl { get; set; }
     public List<BookTag> BookTags { get; set; }

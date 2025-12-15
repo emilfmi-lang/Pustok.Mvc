@@ -30,9 +30,9 @@
                             <a href="compare.html" class="single-btn">
                                 <i class="fas fa-random"></i>
                             </a>
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#quickModal"
-                               class="single-btn">
-                                <i class="fas fa-eye"></i>
+                            <a asp-controller="books" asp-action="bookmodal" asp-route-id="@book.Id" data-bs-toggle="modal" data-bs-target="#quickModal"
+                               class="single-btn bookModalIcon">
+                                <i class="fas fa-eye "></i>
                             </a>
                         </div>
                     </div>

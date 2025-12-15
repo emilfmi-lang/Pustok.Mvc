@@ -1,4 +1,8 @@
-﻿
+﻿@using Pustok.Mvc2.Services
+@inject LayhoutService layoutService
+@{
+    var settings = layoutService.GetSettings();
+}
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -23,7 +27,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-3 ">
                             <a href="index.html" class="site-brand">
-                                <img src="~/assests/image/logo.png" alt="">
+                                <img src="~/assests/image/@settings["logourl"]" alt="">
                             </a>
                         </div>
                         <div class="col-lg-3">
@@ -33,7 +37,7 @@
                                 </div>
                                 <div class="text">
                                     <p>Free Support 24/7</p>
-                                    <p class="font-weight-bold number">+01-202-555-0181</p>
+                                    <p class="font-weight-bold number">@settings["phone"]</p>
                                 </div>
                             </div>
                         </div>
@@ -696,7 +700,7 @@
                             <a href="#" class="single-icon"><i class="fas fa-rss"></i></a>
                             <a href="#" class="single-icon"><i class="fab fa-youtube"></i></a>
                             <a href="#" class="single-icon"><i class="fab fa-google-plus-g"></i></a>
-                            <a href="#" class="single-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="@settings["instagram"]" class="single-icon"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1043,9 +1047,7 @@
                         <div class="footer-contact">
                             <p>
                                 <span class="label">Address:</span><span class="text">
-                                    Example Street 98, HH2 BacHa, New
-                                    York,
-                                    USA
+                                   @settings["address"]
                                 </span>
                             </p>
                             <p><span class="label">Phone:</span><span class="text">+18088 234 5678</span></p>
@@ -1128,9 +1130,11 @@
         </div>
     </footer>
     <!-- Use Minified Plugins Version For Fast Page Load -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="~/assests/js/plugins.js"></script>
     <script src="~/assests/js/ajax-mail.js"></script>
     <script src="~/assests/js/custom.js"></script>
+    <script src ="/assests/js/main.js"></script>
 </body>
 
 
