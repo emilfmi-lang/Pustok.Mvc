@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Pustok2\\Pustok.Mvc2\\",
+  "WorkspaceRootPath": "C:\\Users\\emilfmi\\Desktop\\New folder (2)\\Pustok.Mvc\\Pustok.Mvc2\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{45C0DDF2-323A-85C0-D7E3-34129202F318}|Pustok.Mvc2\\Pustok.Mvc2.csproj|c:\\users\\user\\desktop\\pustok2\\pustok.mvc2\\pustok.mvc2\\areas\\manage\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45C0DDF2-323A-85C0-D7E3-34129202F318}|Pustok.Mvc2\\Pustok.Mvc2.csproj|solutionrelative:pustok.mvc2\\areas\\manage\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,6 +42,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{45C0DDF2-323A-85C0-D7E3-34129202F318}|Pustok.Mvc2\\Pustok.Mvc2.csproj|c:\\users\\user\\desktop\\pustok2\\pustok.mvc2\\pustok.mvc2\\areas\\manage\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{45C0DDF2-323A-85C0-D7E3-34129202F318}|Pustok.Mvc2\\Pustok.Mvc2.csproj|solutionrelative:pustok.mvc2\\areas\\manage\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+=======
+      "AbsoluteMoniker": "D:0:0:{45C0DDF2-323A-85C0-D7E3-34129202F318}|Pustok.Mvc2\\Pustok.Mvc2.csproj|c:\\users\\emilfmi\\desktop\\new folder (2)\\pustok.mvc\\pustok.mvc2\\pustok.mvc2\\areas\\manage\\views\\author\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45C0DDF2-323A-85C0-D7E3-34129202F318}|Pustok.Mvc2\\Pustok.Mvc2.csproj|solutionrelative:pustok.mvc2\\areas\\manage\\views\\author\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0DDF2-323A-85C0-D7E3-34129202F318}|Pustok.Mvc2\\Pustok.Mvc2.csproj|c:\\users\\emilfmi\\desktop\\new folder (2)\\pustok.mvc\\pustok.mvc2\\pustok.mvc2\\areas\\manage\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C0DDF2-323A-85C0-D7E3-34129202F318}|Pustok.Mvc2\\Pustok.Mvc2.csproj|solutionrelative:pustok.mvc2\\areas\\manage\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0DDF2-323A-85C0-D7E3-34129202F318}|Pustok.Mvc2\\Pustok.Mvc2.csproj|c:\\users\\emilfmi\\desktop\\new folder (2)\\pustok.mvc\\pustok.mvc2\\pustok.mvc2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45C0DDF2-323A-85C0-D7E3-34129202F318}|Pustok.Mvc2\\Pustok.Mvc2.csproj|solutionrelative:pustok.mvc2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> 3ca931f9215b3f0763276dfacecb2728142b5819
     }
   ],
   "DocumentGroupContainers": [
@@ -117,24 +130,32 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pustok2\\Pustok.Mvc2\\Pustok.Mvc2\\Areas\\Manage\\Views\\Author\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emilfmi\\Desktop\\New folder (2)\\Pustok.Mvc\\Pustok.Mvc2\\Pustok.Mvc2\\Areas\\Manage\\Views\\Author\\Index.cshtml",
               "RelativeDocumentMoniker": "Pustok.Mvc2\\Areas\\Manage\\Views\\Author\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Pustok2\\Pustok.Mvc2\\Pustok.Mvc2\\Areas\\Manage\\Views\\Author\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emilfmi\\Desktop\\New folder (2)\\Pustok.Mvc\\Pustok.Mvc2\\Pustok.Mvc2\\Areas\\Manage\\Views\\Author\\Index.cshtml",
               "RelativeToolTip": "Pustok.Mvc2\\Areas\\Manage\\Views\\Author\\Index.cshtml",
+<<<<<<< HEAD
               "ViewState": "AgIAAIAAAAAAAAAAAAArwA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-16T06:36:23.148Z"
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T13:24:18.081Z",
+              "EditorCaption": ""
+>>>>>>> 3ca931f9215b3f0763276dfacecb2728142b5819
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AuthorController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pustok2\\Pustok.Mvc2\\Pustok.Mvc2\\Areas\\Manage\\Controllers\\AuthorController.cs",
+              "DocumentMoniker": "C:\\Users\\emilfmi\\Desktop\\New folder (2)\\Pustok.Mvc\\Pustok.Mvc2\\Pustok.Mvc2\\Areas\\Manage\\Controllers\\AuthorController.cs",
               "RelativeDocumentMoniker": "Pustok.Mvc2\\Areas\\Manage\\Controllers\\AuthorController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Pustok2\\Pustok.Mvc2\\Pustok.Mvc2\\Areas\\Manage\\Controllers\\AuthorController.cs",
+              "ToolTip": "C:\\Users\\emilfmi\\Desktop\\New folder (2)\\Pustok.Mvc\\Pustok.Mvc2\\Pustok.Mvc2\\Areas\\Manage\\Controllers\\AuthorController.cs",
               "RelativeToolTip": "Pustok.Mvc2\\Areas\\Manage\\Controllers\\AuthorController.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAkwDIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2025-12-16T06:34:26.371Z",
               "EditorCaption": ""
             },
@@ -173,6 +194,23 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-16T06:14:02.705Z"
+=======
+              "WhenOpened": "2025-12-16T13:24:10.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emilfmi\\Desktop\\New folder (2)\\Pustok.Mvc\\Pustok.Mvc2\\Pustok.Mvc2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pustok.Mvc2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emilfmi\\Desktop\\New folder (2)\\Pustok.Mvc\\Pustok.Mvc2\\Pustok.Mvc2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Pustok.Mvc2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAHcBAAAAAAAAAAAAAIIBAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T13:18:33.206Z",
+              "EditorCaption": ""
+>>>>>>> 3ca931f9215b3f0763276dfacecb2728142b5819
             }
           ]
         }
