@@ -42,9 +42,21 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" asp-area="manage" asp-controller="dashboard" asp-action="index">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span>
+                </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" asp-area="manage" asp-controller="author" asp-action="index">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Authors</span>
+                </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" asp-area="manage" asp-controller="slider" asp-action="index">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Sliders</span>
                 </a>
             </li>
 
@@ -418,8 +430,9 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/admin/vendor/jquery/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="~/admin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
     <script src="~/admin/vendor/jquery-easing/jquery.easing.min.js"></script>
@@ -433,6 +446,8 @@
     <!-- Page level custom scripts -->
     <script src="~/admin/js/demo/chart-area-demo.js"></script>
     <script src="~/admin/js/demo/chart-pie-demo.js"></script>
+
+    @RenderSection("Scripts", required: false)
 
 </body>
 
