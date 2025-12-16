@@ -1,0 +1,4 @@
+﻿@model List<Author>
+@{
+    ViewData["Title"] = "Author Management";
+}
