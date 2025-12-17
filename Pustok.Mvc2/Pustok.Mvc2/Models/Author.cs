@@ -9,4 +9,5 @@ public class Author:BaseEntity
     [MaxLength(20)]
     public string FullName { get; set; }
     public List<Book>? Books { get; set; }
+    //public Author()
 }
